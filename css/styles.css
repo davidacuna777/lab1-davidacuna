@@ -8,7 +8,7 @@
   --accent-green: #00C896;
   --accent-cyan: #38BDF8;
   --text-primary: #E2E8F0;
-  --text-muted: #94A3B8;
+  --text-muted: #A8B7C9;
 
 
   --gradient-accent: linear-gradient(135deg, var(--accent-green), var(--accent-cyan));
@@ -21,6 +21,7 @@
   --space-xl: 48px;
   --space-2xl: 64px;
   --space-3xl: 96px;
+  --section-padding: var(--space-3xl);
 
 
   --font-body: 'Inter', sans-serif;
@@ -122,6 +123,18 @@ ul {
   background: var(--gradient-accent);
   margin: var(--space-xs) auto 0;
   border-radius: 2px;
+}
+
+.skills,
+.experience,
+.projects,
+.highlights,
+.process,
+.testimonials,
+.services,
+.faq,
+.contact {
+  padding: var(--section-padding) 0;
 }
 
 
@@ -309,7 +322,7 @@ ul {
 
 
 .about {
-  padding: var(--space-3xl) 0;
+  padding: var(--section-padding) 0;
 }
 
 .about__grid {
@@ -345,7 +358,6 @@ ul {
 
 
 .skills {
-  padding: var(--space-3xl) 0;
   background-color: var(--bg-card-alt);
 }
 
@@ -353,6 +365,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .card {
@@ -361,6 +374,9 @@ ul {
   border-radius: 12px;
   padding: var(--space-lg);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
 }
 
@@ -390,7 +406,6 @@ ul {
 
 
 .experience {
-  padding: var(--space-3xl) 0;
   background-color: var(--bg-card-alt);
 }
 
@@ -431,7 +446,6 @@ ul {
 
 
 .projects {
-  padding: var(--space-3xl) 0;
   background-color: var(--bg-primary);
 }
 
@@ -439,6 +453,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .project-card {
@@ -446,6 +461,9 @@ ul {
   border-radius: 12px;
   padding: var(--space-lg);
   border: 1px solid rgba(0, 200, 150, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
 
@@ -483,14 +501,14 @@ ul {
 }
 
 .project-card__result {
-  margin-top: var(--space-sm);
+  margin-top: auto;
+  padding-top: var(--space-sm);
   color: var(--text-primary);
   font-size: 0.9rem;
 }
 
 
 .highlights {
-  padding: var(--space-3xl) 0;
   background-color: var(--bg-card-alt);
 }
 
@@ -498,6 +516,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .highlight-card {
@@ -505,6 +524,9 @@ ul {
   border-radius: 12px;
   border: 1px solid rgba(0, 200, 150, 0.2);
   padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .highlight-card__label {
@@ -530,14 +552,11 @@ ul {
 }
 
 
-.process {
-  padding: var(--space-3xl) 0;
-}
-
 .process__grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .process-card {
@@ -545,6 +564,9 @@ ul {
   border: 1px solid rgba(56, 189, 248, 0.18);
   border-radius: 12px;
   padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .process-card__step {
@@ -568,7 +590,6 @@ ul {
 
 
 .testimonials {
-  padding: var(--space-3xl) 0;
   background-color: var(--bg-card-alt);
 }
 
@@ -576,6 +597,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .testimonial-card {
@@ -583,6 +605,9 @@ ul {
   border-left: 4px solid var(--accent-cyan);
   border-radius: 12px;
   padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .testimonial-card__quote {
@@ -612,15 +637,13 @@ ul {
 }
 
 .testimonial-card__author {
+  margin-top: auto;
+  padding-top: var(--space-sm);
   color: var(--text-muted);
   font-size: 0.85rem;
   font-style: normal;
 }
 
-
-.faq {
-  padding: var(--space-3xl) 0;
-}
 
 .faq__list {
   max-width: 900px;
@@ -649,14 +672,11 @@ ul {
 }
 
 
-.services {
-  padding: var(--space-3xl) 0;
-}
-
 .services__grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .service-card {
@@ -668,6 +688,10 @@ ul {
   overflow: hidden;
   border: 1px solid transparent;
   background-clip: padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
   transition: box-shadow var(--transition), transform var(--transition);
 }
 
@@ -718,7 +742,6 @@ ul {
 
 
 .contact {
-  padding: var(--space-3xl) 0;
   background-color: var(--bg-card-alt);
 }
 
