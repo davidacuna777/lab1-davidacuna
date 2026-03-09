@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de David Acuña Orozco — Estudiante de Ingeniería en Sistemas y Junior Web Developer">
+  <title>David Acuña Orozco | Junior Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar__container">
+      <a href="#inicio" class="navbar__brand">David Acuña</a>
+      <nav aria-label="Navegación principal">
+        <ul class="navbar__links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="navbar__toggle" aria-label="Abrir menú de navegación">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio" class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Hola, soy David Acuña Orozco</h1>
+        <h2 class="hero__subtitle">Estudiante de Ingeniería en Sistemas | Junior Web Developer</h2>
+        <p class="hero__description">
+          Construyo sitios web modernos, limpios y funcionales. Listo para mi primer reto profesional.
+        </p>
+        <a href="#contacto" class="btn btn--primary">Contáctame</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+      <div class="container">
+        <h2 class="section__title">Sobre mí</h2>
+        <div class="about__grid">
+          <div class="about__avatar-wrapper">
+            <div class="about__avatar" aria-label="Iniciales de David Acuña">DA</div>
+          </div>
+          <div class="about__text">
+            <p>
+              Soy estudiante de Ingeniería en Sistemas en la Universidad Nacional, Sede Regional Brunca.
+            </p>
+            <p>
+              Apasionado por el desarrollo web, disfruto crear interfaces limpias y bien estructuradas que brinden una buena experiencia al usuario.
+            </p>
+            <p>
+              Mi objetivo es incorporarme a un equipo de desarrollo donde pueda crecer profesionalmente y aportar desde el primer día como Junior Web Developer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+      <div class="container">
+        <h2 class="section__title">Habilidades</h2>
+        <div class="skills__grid">
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#127912;</span>
+            <h3 class="card__title">HTML &amp; CSS</h3>
+            <p class="card__description">Estructura y estilos web semánticos y responsive.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#128295;</span>
+            <h3 class="card__title">Git &amp; GitHub</h3>
+            <p class="card__description">Control de versiones y trabajo colaborativo.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#9999;&#65039;</span>
+            <h3 class="card__title">Figma</h3>
+            <p class="card__description">Prototipado y diseño de interfaces UI/UX.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#127760;</span>
+            <h3 class="card__title">WordPress</h3>
+            <p class="card__description">Desarrollo y personalización de sitios web.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#128421;&#65039;</span>
+            <h3 class="card__title">Node.js</h3>
+            <p class="card__description">Desarrollo de servidores y APIs básicas.</p>
+          </article>
+
+          <article class="card">
+            <span class="card__icon" aria-hidden="true">&#128451;&#65039;</span>
+            <h3 class="card__title">SQL / MySQL</h3>
+            <p class="card__description">Diseño y consulta de bases de datos relacionales.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="services">
+      <div class="container">
+        <h2 class="section__title">Servicios</h2>
+        <div class="services__grid">
+
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">&#128421;&#65039;</span>
+            <h3 class="service-card__title">Desarrollo Web</h3>
+            <p class="service-card__description">
+              Sitios web modernos, semánticos y responsive con HTML, CSS y Node.js.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">&#127912;</span>
+            <h3 class="service-card__title">Diseño UI/UX</h3>
+            <p class="service-card__description">
+              Prototipado en Figma y traducción fiel del diseño a código.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon" aria-hidden="true">&#128451;&#65039;</span>
+            <h3 class="service-card__title">Gestión de Contenido</h3>
+            <p class="service-card__description">
+              Desarrollo y personalización de sitios en WordPress con base de datos MySQL.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <h2 class="section__title">Contacto</h2>
+        <p class="contact__intro">¿Buscas a alguien para tu equipo? Hablemos.</p>
+
+        <div class="contact__links">
+          <a href="mailto:correo@email.com" class="contact__link" aria-label="Enviar correo electrónico">
+            <span aria-hidden="true">&#128231;</span> correo@email.com
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact__link" aria-label="Perfil de LinkedIn">
+            <span aria-hidden="true">&#128100;</span> LinkedIn
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact__link" aria-label="Perfil de GitHub">
+            <span aria-hidden="true">&#128049;</span> GitHub
+          </a>
+        </div>
+
+        <form class="contact__form" action="#" method="POST">
+          <div class="form__group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" aria-label="Tu nombre completo" required>
+          </div>
+          <div class="form__group">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" aria-label="Tu correo electrónico" required>
+          </div>
+          <div class="form__group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" aria-label="Tu mensaje" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 David Acuña Orozco &mdash; Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
