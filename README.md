@@ -18,7 +18,7 @@
 
 - Hero con CTA "Contáctame".  
 - Sobre mí con foto de perfil profesional.  
-- Habilidades, proyectos y servicios usando tarjetas responsivas.  
+- Habilidades, experiencia, proyectos, logros y servicios usando tarjetas responsivas.  
 - Contacto con enlaces a correo, LinkedIn y GitHub más un formulario maqueta.
 
 ### Tecnología y criterios
@@ -328,6 +328,8 @@
 A partir del análisis de estas 14 ofertas laborales reales, el perfil profesional objetivo definido es:
 
 > **Desarrollador Web Front-End con capacidades Full Stack**, enfocado en la construcción de interfaces modernas, accesibles y responsive utilizando HTML5, CSS3, JavaScript y React/Next.js, con conocimientos de back-end básico (Node.js o Python) y capacidad de colaborar en equipos ágiles de forma remota.
+
+En la versión del portafolio desarrollada para esta entrega, el posicionamiento profesional se presenta como un perfil con experiencia en proyectos académicos y freelance, mostrando alcance en diseño UI, desarrollo front-end y bases de integración back-end, sin salir de las tecnologías permitidas por el curso (HTML, CSS y JavaScript puro).
 
 ### Justificación del perfil
 

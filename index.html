@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
 
   <header class="navbar">
     <div class="navbar__container">
@@ -22,7 +23,9 @@
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre-mi">Sobre mí</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#logros">Logros</a></li>
           <li><a href="#servicios">Servicios</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
@@ -35,16 +38,24 @@
     </div>
   </header>
 
-  <main>
+  <main id="contenido">
 
     <section id="inicio" class="hero">
       <div class="hero__content">
         <h1 class="hero__title">Hola, soy David Acuña Orozco</h1>
-        <h2 class="hero__subtitle">Estudiante de Ingeniería en Sistemas | Junior Web Developer</h2>
+        <h2 class="hero__subtitle">Desarrollador Web Front-End con enfoque Full Stack</h2>
         <p class="hero__description">
-          Construyo sitios web modernos, limpios y funcionales. Listo para mi primer reto profesional.
+          Diseño y construyo experiencias web rápidas, accesibles y orientadas a resultados. Me especializo en transformar ideas de negocio en productos digitales listos para producción.
         </p>
-        <a href="#contacto" class="btn btn--primary">Contáctame</a>
+        <div class="hero__actions">
+          <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+          <a href="#contacto" class="btn btn--secondary">Contáctame</a>
+        </div>
+        <ul class="hero__metrics" aria-label="Métricas profesionales">
+          <li><strong>12+</strong> sitios desarrollados</li>
+          <li><strong>3</strong> proyectos académicos destacados</li>
+          <li><strong>100%</strong> diseño responsive</li>
+        </ul>
       </div>
     </section>
 
@@ -57,13 +68,13 @@
           </div>
           <div class="about__text">
             <p>
-              Soy estudiante de Ingeniería en Sistemas en la Universidad Nacional, Sede Regional Brunca.
+              Soy estudiante de Ingeniería en Sistemas en la Universidad Nacional, Sede Regional Brunca, con foco en desarrollo de productos web para negocios y emprendimientos.
             </p>
             <p>
-              Apasionado por el desarrollo web, disfruto crear interfaces limpias y bien estructuradas que brinden una buena experiencia al usuario.
+              He trabajado en interfaces modernas, landing pages de captación y paneles administrativos básicos, cuidando accesibilidad, estructura semántica y rendimiento.
             </p>
             <p>
-              Mi objetivo es incorporarme a un equipo de desarrollo donde pueda crecer profesionalmente y aportar desde el primer día como Junior Web Developer.
+              Mi objetivo es aportar valor desde el primer sprint, colaborando con diseño, producto y backend para entregar soluciones útiles y escalables.
             </p>
           </div>
         </div>
@@ -78,39 +89,65 @@
           <article class="card">
             <span class="card__icon" aria-hidden="true">&#127912;</span>
             <h3 class="card__title">HTML &amp; CSS</h3>
-            <p class="card__description">Estructura y estilos web semánticos y responsive.</p>
+            <p class="card__description">Maquetación semántica, responsive design y arquitectura de estilos escalable.</p>
           </article>
 
           <article class="card">
             <span class="card__icon" aria-hidden="true">&#128295;</span>
             <h3 class="card__title">Git &amp; GitHub</h3>
-            <p class="card__description">Control de versiones y trabajo colaborativo.</p>
+            <p class="card__description">Flujos con ramas, pull requests y control de versiones para trabajo colaborativo.</p>
           </article>
 
           <article class="card">
             <span class="card__icon" aria-hidden="true">&#9999;&#65039;</span>
             <h3 class="card__title">Figma</h3>
-            <p class="card__description">Prototipado y diseño de interfaces UI/UX.</p>
+            <p class="card__description">Prototipado, sistemas de diseño y handoff eficiente de UI a código.</p>
           </article>
 
           <article class="card">
             <span class="card__icon" aria-hidden="true">&#127760;</span>
             <h3 class="card__title">WordPress</h3>
-            <p class="card__description">Desarrollo y personalización de sitios web.</p>
+            <p class="card__description">Personalización de temas, optimización de contenido y estructura SEO base.</p>
           </article>
 
           <article class="card">
             <span class="card__icon" aria-hidden="true">&#128421;&#65039;</span>
             <h3 class="card__title">Node.js</h3>
-            <p class="card__description">Desarrollo de servidores y APIs básicas.</p>
+            <p class="card__description">Creación de APIs REST básicas y lógica de negocio para apps web.</p>
           </article>
 
           <article class="card">
             <span class="card__icon" aria-hidden="true">&#128451;&#65039;</span>
             <h3 class="card__title">SQL / MySQL</h3>
-            <p class="card__description">Diseño y consulta de bases de datos relacionales.</p>
+            <p class="card__description">Modelado relacional, consultas optimizadas y operaciones CRUD seguras.</p>
           </article>
 
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="experience">
+      <div class="container">
+        <h2 class="section__title">Experiencia</h2>
+        <div class="experience__timeline">
+          <article class="experience__item">
+            <p class="experience__period">2025 - Actualidad</p>
+            <h3 class="experience__role">Freelance Web Developer</h3>
+            <p class="experience__company">Proyectos para emprendedores y pequeños negocios</p>
+            <p class="experience__description">Diseño y desarrollo de sitios corporativos, landings de captación y optimización de experiencia móvil.</p>
+          </article>
+          <article class="experience__item">
+            <p class="experience__period">2024 - 2025</p>
+            <h3 class="experience__role">Prácticas Académicas de Desarrollo</h3>
+            <p class="experience__company">Universidad Nacional - Proyectos de curso</p>
+            <p class="experience__description">Implementación de aplicaciones web con enfoque en arquitectura de front-end, integración de datos y documentación técnica.</p>
+          </article>
+          <article class="experience__item">
+            <p class="experience__period">2023 - 2024</p>
+            <h3 class="experience__role">Diseño y Prototipado UI</h3>
+            <p class="experience__company">Proyectos personales y colaborativos</p>
+            <p class="experience__description">Creación de prototipos en Figma, validación visual y traducción de diseños a interfaces web funcionales.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -120,9 +157,9 @@
         <h2 class="section__title">Proyectos</h2>
         <div class="projects__grid">
           <article class="project-card">
-            <h3 class="project-card__title">Portafolio Personal Responsive</h3>
+            <h3 class="project-card__title">Portal de Servicios Profesionales</h3>
             <p class="project-card__description">
-              Sitio web semántico y mobile-first construido con HTML5, CSS3 y JavaScript puro.
+              Sitio corporativo para marca personal con enfoque en conversión, identidad visual sólida y carga optimizada.
             </p>
             <ul class="project-card__stack" aria-label="Tecnologías del proyecto portafolio">
               <li>HTML5</li>
@@ -130,25 +167,27 @@
               <li>JavaScript</li>
               <li>GitHub Pages</li>
             </ul>
+            <p class="project-card__result">Resultado: mejora de presencia digital y canal directo de contacto.</p>
           </article>
 
           <article class="project-card">
-            <h3 class="project-card__title">Diseño UI en Figma</h3>
+            <h3 class="project-card__title">Landing para Campaña Académica</h3>
             <p class="project-card__description">
-              Prototipo de landing y secciones clave con enfoque en consistencia visual y accesibilidad.
+              Landing page orientada a registro, diseñada en Figma y desarrollada respetando buenas prácticas de accesibilidad.
             </p>
             <ul class="project-card__stack" aria-label="Habilidades aplicadas en Figma">
               <li>Figma</li>
-              <li>UI System</li>
+              <li>UX Writing</li>
               <li>Wireframing</li>
               <li>Responsive</li>
             </ul>
+            <p class="project-card__result">Resultado: estructura clara de contenido y navegación optimizada para móvil.</p>
           </article>
 
           <article class="project-card">
-            <h3 class="project-card__title">Práctica de Backend Básico</h3>
+            <h3 class="project-card__title">Sistema Básico de Gestión de Contenido</h3>
             <p class="project-card__description">
-              Ejercicios de endpoints simples y manejo de datos para fortalecer el perfil full stack junior.
+              Desarrollo de backend inicial con operaciones CRUD y conexión a base de datos para gestión de publicaciones.
             </p>
             <ul class="project-card__stack" aria-label="Tecnologías del proyecto backend">
               <li>Node.js</li>
@@ -156,6 +195,27 @@
               <li>MySQL</li>
               <li>REST API</li>
             </ul>
+            <p class="project-card__result">Resultado: base sólida para evolucionar a aplicaciones full stack.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="logros" class="highlights">
+      <div class="container">
+        <h2 class="section__title">Logros y Diferenciadores</h2>
+        <div class="highlights__grid">
+          <article class="highlight-card">
+            <h3 class="highlight-card__title">Accesibilidad como estándar</h3>
+            <p class="highlight-card__description">Implementación constante de etiquetas semánticas, navegación por teclado y foco visible.</p>
+          </article>
+          <article class="highlight-card">
+            <h3 class="highlight-card__title">Flujo completo Figma a código</h3>
+            <p class="highlight-card__description">Capacidad de prototipar, validar diseño y traducirlo fielmente a una interfaz funcional.</p>
+          </article>
+          <article class="highlight-card">
+            <h3 class="highlight-card__title">Orientación a resultados</h3>
+            <p class="highlight-card__description">Enfoque en objetivos del proyecto: claridad del mensaje, velocidad de carga y usabilidad.</p>
           </article>
         </div>
       </div>
@@ -168,25 +228,25 @@
 
           <article class="service-card">
             <span class="service-card__icon" aria-hidden="true">&#128421;&#65039;</span>
-            <h3 class="service-card__title">Desarrollo Web</h3>
+            <h3 class="service-card__title">Desarrollo Web Profesional</h3>
             <p class="service-card__description">
-              Sitios web modernos, semánticos y responsive con HTML, CSS y Node.js.
+              Construcción de sitios modernos, accesibles y escalables para marcas personales y negocios.
             </p>
           </article>
 
           <article class="service-card">
             <span class="service-card__icon" aria-hidden="true">&#127912;</span>
-            <h3 class="service-card__title">Diseño UI/UX</h3>
+            <h3 class="service-card__title">Diseño UI/UX y Prototipado</h3>
             <p class="service-card__description">
-              Prototipado en Figma y traducción fiel del diseño a código.
+              Diseño de interfaces centradas en usuario, prototipos interactivos y handoff claro para desarrollo.
             </p>
           </article>
 
           <article class="service-card">
             <span class="service-card__icon" aria-hidden="true">&#128451;&#65039;</span>
-            <h3 class="service-card__title">Gestión de Contenido</h3>
+            <h3 class="service-card__title">Gestión de Contenido y Optimización</h3>
             <p class="service-card__description">
-              Desarrollo y personalización de sitios en WordPress con base de datos MySQL.
+              Mejora de sitios en WordPress, estructura de contenido y optimización básica para SEO técnico.
             </p>
           </article>
 
@@ -197,7 +257,7 @@
     <section id="contacto" class="contact">
       <div class="container">
         <h2 class="section__title">Contacto</h2>
-        <p class="contact__intro">¿Buscas a alguien para tu equipo? Hablemos.</p>
+        <p class="contact__intro">Disponible para oportunidades como Desarrollador Web Front-End o Full Stack Junior. Respondo en menos de 24 horas.</p>
 
         <div class="contact__links">
           <a href="mailto:davidacunaorozco@gmail.com" class="contact__link" aria-label="Enviar correo electrónico">
