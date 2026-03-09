@@ -519,6 +519,105 @@ ul {
 }
 
 
+.process {
+  padding: var(--space-3xl) 0;
+}
+
+.process__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.process-card {
+  background-color: var(--bg-card);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  border-radius: 12px;
+  padding: var(--space-lg);
+}
+
+.process-card__step {
+  display: inline-block;
+  color: var(--accent-green);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: var(--space-xs);
+}
+
+.process-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  margin-bottom: var(--space-xs);
+}
+
+.process-card__description {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+
+.testimonials {
+  padding: var(--space-3xl) 0;
+  background-color: var(--bg-card-alt);
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.testimonial-card {
+  background-color: var(--bg-card);
+  border-left: 4px solid var(--accent-cyan);
+  border-radius: 12px;
+  padding: var(--space-lg);
+}
+
+.testimonial-card__quote {
+  color: var(--text-primary);
+  font-size: 0.96rem;
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial-card__author {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-style: normal;
+}
+
+
+.faq {
+  padding: var(--space-3xl) 0;
+}
+
+.faq__list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.faq__item {
+  background-color: var(--bg-card);
+  border: 1px solid rgba(0, 200, 150, 0.2);
+  border-radius: 10px;
+  padding: var(--space-sm) var(--space-md);
+}
+
+.faq__item summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.faq__item p {
+  margin-top: var(--space-sm);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+
 .services {
   padding: var(--space-3xl) 0;
 }
@@ -639,6 +738,7 @@ ul {
 }
 
 .form__group input,
+.form__group select,
 .form__group textarea {
   font-family: var(--font-body);
   font-size: 1rem;
@@ -651,6 +751,7 @@ ul {
 }
 
 .form__group input:focus,
+.form__group select:focus,
 .form__group textarea:focus {
   border-color: var(--accent-green);
   box-shadow: 0 0 0 3px rgba(0, 200, 150, 0.15);
@@ -735,6 +836,16 @@ ul {
   }
 
 
+  .process__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .testimonials__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
   .contact__links {
     flex-direction: row;
     justify-content: center;
@@ -773,6 +884,16 @@ ul {
 
 
   .highlights__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+  .process__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+
+  .testimonials__grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }

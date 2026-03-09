@@ -25,8 +25,11 @@
           <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#experiencia">Experiencia</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#proceso">Proceso</a></li>
           <li><a href="#logros">Logros</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
           <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#faq">FAQ</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -221,6 +224,54 @@
       </div>
     </section>
 
+    <section id="proceso" class="process">
+      <div class="container">
+        <h2 class="section__title">Proceso de Trabajo</h2>
+        <div class="process__grid">
+          <article class="process-card">
+            <span class="process-card__step">01</span>
+            <h3 class="process-card__title">Descubrimiento</h3>
+            <p class="process-card__description">Defino objetivos del sitio, público ideal y acciones clave del usuario para orientar decisiones de diseño.</p>
+          </article>
+          <article class="process-card">
+            <span class="process-card__step">02</span>
+            <h3 class="process-card__title">Diseño UI</h3>
+            <p class="process-card__description">Creo prototipo en Figma y sistema visual consistente para desktop y mobile antes de pasar a desarrollo.</p>
+          </article>
+          <article class="process-card">
+            <span class="process-card__step">03</span>
+            <h3 class="process-card__title">Desarrollo</h3>
+            <p class="process-card__description">Implemento HTML semántico, CSS responsive y JavaScript mínimo para una experiencia rápida y mantenible.</p>
+          </article>
+          <article class="process-card">
+            <span class="process-card__step">04</span>
+            <h3 class="process-card__title">Entrega y Mejora</h3>
+            <p class="process-card__description">Publico en GitHub Pages, valido accesibilidad y propongo iteraciones basadas en feedback real.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+      <div class="container">
+        <h2 class="section__title">Testimonios</h2>
+        <div class="testimonials__grid">
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">"Entregó una landing clara, rápida y alineada con lo que necesitábamos para captar contactos."</p>
+            <cite class="testimonial-card__author">Proyecto académico de emprendimiento</cite>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">"Buen criterio visual y excelente orden al pasar de Figma a código sin perder calidad."</p>
+            <cite class="testimonial-card__author">Colaboración en curso universitario</cite>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">"Destaca por comunicación clara, rapidez para iterar y enfoque en experiencia de usuario."</p>
+            <cite class="testimonial-card__author">Cliente de proyecto personal</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
     <section id="servicios" class="services">
       <div class="container">
         <h2 class="section__title">Servicios</h2>
@@ -254,6 +305,26 @@
       </div>
     </section>
 
+    <section id="faq" class="faq">
+      <div class="container">
+        <h2 class="section__title">Preguntas Frecuentes</h2>
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary>¿Qué tecnologías utilizas para desarrollar sitios web?</summary>
+            <p>Trabajo principalmente con HTML5, CSS3 y JavaScript. También puedo integrar backend básico con Node.js y MySQL según el alcance del proyecto.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿El sitio queda optimizado para celular y escritorio?</summary>
+            <p>Sí. El desarrollo se hace con enfoque responsive desde el inicio, aplicando media queries, grid y flexbox para asegurar buena experiencia en todos los dispositivos.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿En cuánto tiempo puedes entregar una landing page?</summary>
+            <p>Dependiendo del contenido y complejidad, una landing profesional puede estar lista entre 4 y 7 días incluyendo revisión visual y ajustes.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <section id="contacto" class="contact">
       <div class="container">
         <h2 class="section__title">Contacto</h2>
@@ -272,6 +343,15 @@
         </div>
 
         <form class="contact__form" action="#" method="POST">
+          <div class="form__group">
+            <label for="servicio">Tipo de proyecto</label>
+            <select id="servicio" name="servicio" aria-label="Tipo de proyecto">
+              <option value="">Selecciona una opción</option>
+              <option value="landing">Landing page</option>
+              <option value="sitio-corporativo">Sitio corporativo</option>
+              <option value="mejora-web">Mejora de sitio existente</option>
+            </select>
+          </div>
           <div class="form__group">
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="nombre" aria-label="Tu nombre completo" required>
