@@ -11,14 +11,14 @@
 | Aspecto | Detalle |
 |---|---|
 | **URL local** | Abre `index.html` directamente o con una extensión de servidor estático |
-| **URL GitHub Pages** | *Por agregar cuando se publique* |
-| **Repositorio** | https://github.com/USER/lab1-davidacuna *(actualiza con la URL real)* |
+| **URL GitHub Pages** | https://davidacuna777.github.io/lab1-davidacuna/ |
+| **Repositorio** | https://github.com/davidacuna777/lab1-davidacuna |
 
 ### Secciones clave
 
 - Hero con CTA "Contáctame".  
-- Sobre mí con avatar tipográfico.  
-- Habilidades y servicios usando tarjetas responsivas.  
+- Sobre mí con foto de perfil profesional.  
+- Habilidades, proyectos y servicios usando tarjetas responsivas.  
 - Contacto con enlaces a correo, LinkedIn y GitHub más un formulario maqueta.
 
 ### Tecnología y criterios
@@ -30,10 +30,10 @@
 
 ### Personaliza antes de publicar
 
-1. Sustituye los place-holders de correo, LinkedIn y GitHub en `index.html`.  
-2. Define una acción real para el formulario o deja claro que es demostrativo.  
-3. Completa la fila "URL GitHub Pages" y "Repositorio" en esta tabla.  
-4. Revisa que todas las secciones reflejen tu experiencia y proyectos actuales.
+1. Define una acción real para el formulario o deja claro que es demostrativo.  
+2. Agrega tu enlace final de Figma en la sección de entregables.  
+3. Mantén actualizada la sección de proyectos con evidencia nueva.  
+4. Revisa que todas las secciones reflejen tu experiencia actual.
 
 ### Despliegue en GitHub Pages
 
@@ -51,6 +51,42 @@
 ├── js/               # Scripts (main.js)
 └── assets/           # Recursos opcionales (imágenes, íconos)
 ```
+
+### Cumplimiento de restricciones del curso
+
+| Requisito | Estado | Evidencia |
+|---|---|---|
+| Investigación de al menos 5 ofertas reales | ✅ Cumplido | Se documentan 14 ofertas en este README |
+| Análisis de nombre, tecnologías, hard/soft skills y responsabilidades | ✅ Cumplido | Tablas por cada oferta |
+| Patrones comunes, perfil objetivo y diferenciadores | ✅ Cumplido | Secciones "Análisis de Patrones" y "Perfil Profesional Objetivo" |
+| Diseño y prototipado en Figma | 🟡 Pendiente enlace | Falta colocar URL pública de Figma |
+| Desarrollo con HTML5, CSS3 y JS limitado | ✅ Cumplido | Estructura semántica + `js/main.js` con scroll/menu |
+| Sin frameworks ni plantillas | ✅ Cumplido | Proyecto en código base propio |
+| Publicación en GitHub y GitHub Pages | ✅ Cumplido | Repositorio y URL pública activos |
+
+### Revisión de extensiones VS Code sugeridas
+
+| Extensión | ¿Cómo se aprovecha en este proyecto? |
+|---|---|
+| Prettier | Formateo consistente de HTML/CSS/JS antes de cada commit. |
+| ESLint | Detecta errores de JavaScript y malas prácticas. |
+| Polacode | Capturas de código para presentación en clase. |
+| Live Server | Vista instantánea del sitio al guardar cambios. |
+| HTML Snippets | Acelera creación de estructura semántica. |
+| Path Intellisense | Autocompleta rutas (`assets/`, `css/`, `js/`). |
+| IntelliSense for CSS | Sugiere propiedades y valores CSS válidos. |
+| Open In Browser | Prueba rápida en navegador real. |
+| Emmet | Escribe layout rápido con abreviaturas. |
+| Error Lens | Muestra errores/lints en línea en tiempo real. |
+| Auto Rename Tag | Renombra apertura/cierre de tags juntos. |
+| Auto Close Tag | Cierra etiquetas automáticamente. |
+| Activity Bar | Optimiza navegación entre Explorer/Git/Extensions. |
+| Trailing Spaces | Evita espacios innecesarios al final de línea. |
+| Indent Rainbow | Ayuda a leer anidación de bloques. |
+| VSCode Icons | Identificación visual más rápida de archivos. |
+| TODO Tree | Seguimiento de pendientes técnicos. |
+| CSS Peek | Navega entre clases CSS y HTML al instante. |
+| Inline Fold | Reduce bloques largos para enfocarse en secciones. |
 
 ---
 
@@ -311,9 +347,9 @@ El sitio web de portafolio estará orientado a **postulación a un puesto fictic
 
 | Recurso | Enlace |
 |---|---|
-| 🎨 Diseño en Figma | *[Por agregar]* |
-| 🌐 Sitio publicado en GitHub Pages | *[Por agregar]* |
-| 📦 Repositorio GitHub | *[Por agregar]* |
+| 🎨 Diseño en Figma | *Pendiente de agregar URL pública del prototipo* |
+| 🌐 Sitio publicado en GitHub Pages | https://davidacuna777.github.io/lab1-davidacuna/ |
+| 📦 Repositorio GitHub | https://github.com/davidacuna777/lab1-davidacuna |
 
 ---
 

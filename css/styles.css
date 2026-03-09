@@ -274,19 +274,13 @@ ul {
   flex-shrink: 0;
 }
 
-.about__avatar {
+.about__avatar-image {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: var(--bg-card);
   border: 3px solid var(--accent-green);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--accent-green);
+  object-fit: cover;
+  display: block;
   box-shadow: 0 0 24px rgba(0, 200, 150, 0.15);
 }
 
@@ -343,6 +337,59 @@ ul {
 .card__description {
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+
+.projects {
+  padding: var(--space-3xl) 0;
+  background-color: var(--bg-primary);
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.project-card {
+  background-color: var(--bg-card);
+  border-radius: 12px;
+  padding: var(--space-lg);
+  border: 1px solid rgba(0, 200, 150, 0.2);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 22px rgba(56, 189, 248, 0.15);
+}
+
+.project-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  margin-bottom: var(--space-xs);
+}
+
+.project-card__description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: var(--space-sm);
+}
+
+.project-card__stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.project-card__stack li {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 999px;
+  padding: 4px 10px;
 }
 
 
@@ -541,14 +588,18 @@ ul {
     gap: var(--space-xl);
   }
 
-  .about__avatar {
+  .about__avatar-image {
     width: 150px;
     height: 150px;
-    font-size: 3rem;
   }
 
 
   .skills__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .projects__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -581,6 +632,11 @@ ul {
 
 
   .services__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+  .projects__grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
