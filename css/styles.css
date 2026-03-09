@@ -507,6 +507,17 @@ ul {
   padding: var(--space-lg);
 }
 
+.highlight-card__label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 999px;
+  padding: 3px 10px;
+  margin-bottom: var(--space-xs);
+}
+
 .highlight-card__title {
   font-family: var(--font-heading);
   font-size: 1.08rem;
@@ -578,6 +589,26 @@ ul {
   color: var(--text-primary);
   font-size: 0.96rem;
   margin-bottom: var(--space-sm);
+}
+
+.testimonial-card__meta {
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial-card__name {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+}
+
+.testimonial-card__role {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.testimonial-card__rating {
+  color: #facc15;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
 }
 
 .testimonial-card__author {
