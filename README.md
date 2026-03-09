@@ -221,15 +221,5 @@ El prototipo contempla landing y secciones principales (perfil, habilidades, exp
 | Sitio publicado (GitHub Pages) | https://davidacuna777.github.io/lab1-davidacuna/ |
 | Diseno en Figma | https://www.figma.com/make/oMLjFovGEQy69DYqWXjDwt/Revisar-contenido-del-prompt?t=X7QQ8YmHeeXXni6b-1 |
 
----
-
-## 11. Lista Final - Que te falta para cerrar entrega
-
-- Verificar que los 3 enlaces de entregables abren correctamente sin permisos restringidos.
-- Confirmar que el archivo Figma este compartido en modo visible para el profesor.
-- Hacer ultimo commit y push con este README actualizado.
-- Preparar explicacion de 1 minuto (perfil elegido + 2 patrones + 2 diferenciadores + demo del sitio).
-
----
 
 Documento preparado segun el enunciado del curso, con investigacion, analisis, justificacion del perfil y enlaces de entrega.
